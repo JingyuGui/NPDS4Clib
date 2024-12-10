@@ -6,7 +6,7 @@ a simple and efficient approach for lung nodule analysis, inspired by clinical p
 This package is an Rcpp-based version of the Python version **_`NPDS4Clib`_**, originally developed by Hang Yu.
 
 Check:
-- [@teammate1](https://github.com/hangyustat)'s [NPDS calculation in Python](https://github.com/hangyustat/NPDS)
+- [@Hang Yu](https://github.com/hangyustat)'s [NPDS calculation in Python](https://github.com/hangyustat/NPDS)
 For python version.
 
 The **_NPDS_** statistic, introduced in the paper **_“A Novel Statistic Guided 
@@ -146,6 +146,15 @@ To learn more about specific functions, use the following command in R:
 ```R
 ?function_name
 ```
+
+## Contributors
+We'd like to acknowledge the following contributors to this project:
+
+- [@Hang Yu](https://github.com/hangyustat): Developed the original Python version of NPDS calculation.
+- [@Jingyu Gui](https://github.com/JingyuGUi): Developed the R version of NPDS calculation.
+- [@Yan Lan](https://github.com/lyannnisme): Documentation and testing.
+
+
 
 For example, to learn more about the `registration_by_elastix` function, use:
 
