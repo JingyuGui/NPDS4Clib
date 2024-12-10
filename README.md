@@ -42,7 +42,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 library(devtools)
 
 # Install the NPDS4Clib package from GitHub
-devtools::install_github("JingyuGUi/NPDS4Clib")
+devtools::install_github("JingyuGui/NPDS4Clib")
 
 # Load the NPDS4Clib package
 library(NPDS4Clib)
