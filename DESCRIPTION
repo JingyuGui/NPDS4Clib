@@ -1,0 +1,27 @@
+Package: NPDS4Clib
+Type: Package
+Title: Tools for NPDS Calculation and Lung Nodule Progression
+        Assessment (Rcpp-based version of the Python Package NPDS4lib)
+Version: 0.1.0
+Authors@R: c(
+    person("Hang Yu", email = "hangyustat@ruc.edu.cn", role = c("ctb")),
+    person("Jingyu Gui", email = "jingyuGui1999@163.com", role = c("aut", "cre")),
+    person("Yan Lan", email = "lyannnisme@gmail.com", role = c("aut")))
+Description: This package allows users to calculate NPDS statistics and assess 
+    the progression of lung nodules using baseline and follow-up CT images. 
+    The tools are designed for robust and efficient analysis of medical imaging data. 
+    It is an Rcpp-based version of the Python package NPDS4lib, which provides similar 
+    functionality for Python users. Portions of this package include code adapted 
+    from the 'EBImage' package (https://github.com/aoles/EBImage),(see "bwlabel" function in clear_blrder.cpp file) licensed under LGPL.
+License: CC BY-NC-SA 4.0
+Encoding: UTF-8
+Imports: RNiftyReg, Rcpp, oro.nifti, pracma, utils
+LinkingTo: Rcpp
+Suggests: devtools, testthat, rmarkdown, knitr
+RoxygenNote: 7.3.2
+NeedsCompilation: yes
+Packaged: 2024-12-10 01:30:10 UTC; testrog
+Author: Hang Yu [ctb],
+  Jingyu Gui [aut, cre],
+  Yan Lan [aut]
+Maintainer: Jingyu Gui <jingyuGui1999@163.com>
