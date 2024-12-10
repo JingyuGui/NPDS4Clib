@@ -4,6 +4,7 @@
 the progression of lung nodules using baseline and follow-up CT images. It offers 
 a simple and efficient approach for lung nodule analysis, inspired by clinical practices. 
 This package is an Rcpp-based version of the Python version **_`NPDS4Clib`_**, originally developed by Hang Yu.
+
 Check:
 - [@teammate1](https://github.com/hangyustat)'s [NPDS calculation in Python](https://github.com/hangyustat/NPDS)
 For python version.
@@ -12,8 +13,7 @@ The **_NPDS_** statistic, introduced in the paper **_“A Novel Statistic Guided
 by Clinical Experience for Assessing the Progression of Lung Nodules”_**, provides 
 a simple way to determine if a lung nodule has progressed using hypothesis testing.
 
-In this notebook, you can easily upload your baseline and follow-up CT images, 
-calculate the **_NPDS_** statistic, and assess whether the lung nodule has shown any progression.
+In this package, you can easily use your baseline and follow-up CT images to calculate the **_NPDS_** statistic, and assess whether the lung nodule has shown any progression.
 
 ## Before starting to calculate your own **_NPDS_**, **make sure**:
 
