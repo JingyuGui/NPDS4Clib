@@ -154,7 +154,7 @@ For example, to learn more about the `registration_by_elastix` function, use:
 ## Contributors
 We'd like to acknowledge the following contributors to this project:
 
-- [@Hang Yu](https://github.com/hangyustat): Developed the original Python version of NPDS calculation.
+- [@Hang Yu](https://github.com/hangyustat): Developed the original Python version of NPDS calculation, tested and compared the performance of computation functions based purely on R and those based on Rcpp.
 - [@Jingyu Gui](https://github.com/JingyuGUi): Developed the R version of NPDS calculation.
 - [@Yan Lan](https://github.com/lyannnisme): Documentation and testing.
 
