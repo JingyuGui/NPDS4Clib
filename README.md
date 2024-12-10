@@ -137,8 +137,7 @@ Portions of this package include code adapted from the `EBImage` package
 (https://github.com/aoles/EBImage), which is licensed under LGPL.
 
 ## License
-This package is licensed under LGPL-3.0. For more details, please refer to the LICENSE file.
-
+This package is licensed under CC BY-NC-SA 4.0. For more details, please refer to the LICENSE file and the **_`Use Terms`_** section in [NPDS calculation in Python](https://github.com/hangyustat/NPDS).
 
 ## Getting Help
 To learn more about specific functions, use the following command in R:
