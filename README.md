@@ -133,7 +133,7 @@ By combining these elements, the function helps you make data-driven decisions w
 both clarity and confidence.
 
 ## Acknowledgments
-Portions of this package include code adapted from the `EBImage` package 
+The bwlabel function in clear_border function of this package include code adapted from the `EBImage` package 
 (https://github.com/aoles/EBImage), which is licensed under LGPL.
 
 ## License
@@ -145,6 +145,11 @@ To learn more about specific functions, use the following command in R:
 ```R
 ?function_name
 ```
+For example, to learn more about the `registration_by_elastix` function, use:
+
+```R
+?registration_by_elastix
+```
 
 ## Contributors
 We'd like to acknowledge the following contributors to this project:
@@ -153,10 +158,3 @@ We'd like to acknowledge the following contributors to this project:
 - [@Jingyu Gui](https://github.com/JingyuGUi): Developed the R version of NPDS calculation.
 - [@Yan Lan](https://github.com/lyannnisme): Documentation and testing.
 
-
-
-For example, to learn more about the `registration_by_elastix` function, use:
-
-```R
-?registration_by_elastix
-```
