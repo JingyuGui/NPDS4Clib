@@ -50,6 +50,19 @@ library(NPDS4Clib)
 
 ## Step 2 : Replace the nii CT data paths, nodule coordinates, and nodule diameter with your own.
 
+### <span style="color:darkred;">Important Note on Example Data Usage</span>
+
+If you want to use the example data files located in the `inst/extdata` folder to test the `initialization` function or the `registration_by_elastix` function's `run example` feature, please follow the instructions below:
+
+- **Highly Recommended**: Directly download the following two data files from the [GitHub repository](https://github.com/JingyuGui/NPDS4Clib) under the `inst/extdata` folder:
+  - `0002358111-20180516.nii.gz`
+  - `0002358111-20220707.nii.gz`
+
+- After downloading, copy and replace these files into the `inst/extdata` folder in your package installation directory. You can find the directory path by running the following code in R:
+  ```R
+  system.file("extdata", package = "NPDS4Clib")
+
+
 ```r
 # Initialize the nodule progress detector with specified parameters
 nodule_progress_detector <- initialization(
@@ -57,8 +70,8 @@ nodule_progress_detector <- initialization(
   Y = 356, 
   range_Z = '325-347', 
   diameter = 12, 
-  baseline_CT_nii_path = "Data/0002358111-20180516.nii.gz", 
-  followup_CT_nii_path = "Data/0002358111-20220707.nii.gz"  
+  baseline_CT_nii_path = system.file("extdata", "0002358111-20180516.nii.gz", package = "NPDS4Clib"), 
+  followup_CT_nii_path = system.file("extdata", "0002358111-20220707.nii.gz", package = "NPDS4Clib")  
 )
 
 # Perform image registration using elastix and update the nodule progress detector
