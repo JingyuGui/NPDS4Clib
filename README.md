@@ -50,11 +50,11 @@ library(NPDS4Clib)
 
 ## Step 2 : Replace the nii CT data paths, nodule coordinates, and nodule diameter with your own.
 
-### <span style="color:darkred;">Important Note on Example Data Usage</span>
+### <span style="color:darkred;">Important Note on Example Data Usage (Can be ignored if you are not going to use the sample data)</span>
 
-If you want to use the example data files located in the `inst/extdata` folder to test the `initialization` function or the `registration_by_elastix` function's `run example` feature, please follow the instructions below:
+If you want to use the example data files located in the `inst/extdata` folder to test the `initialization` function or the `registration_by_elastix` function's `run example`, please follow the instructions below:
 
-- **Highly Recommended**: Directly download the following two data files from the [GitHub repository](https://github.com/JingyuGui/NPDS4Clib) under the `inst/extdata` folder:
+- **Highly Recommended**: Directly download the following two data files from the [NPDS4Clib](https://github.com/JingyuGui/NPDS4Clib) under the `inst/extdata` folder:
   - `0002358111-20180516.nii.gz`
   - `0002358111-20220707.nii.gz`
 Due to the possibility of `.nii.gz` data files becoming corrupted during the `devtools` download and installation process, we highly suggest you to manually download and replace the example data files if you need to use them.
