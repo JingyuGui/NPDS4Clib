@@ -111,11 +111,11 @@ The file path to the follow-up CT scan, also in .nii format.
 
 ```r
 # NPDS_calculate_based_on_C++
-nodule_progress_detectorC <- NPDS_calculateC(nodule_progress_detector)
-nodule_progress_detectorC$NPDS
+nodule_progress_detector <- NPDS_calculateC(nodule_progress_detector)
+nodule_progress_detector$NPDS
 
 # Hypothesis test
-test <- hypothesis_test_by_ClinvNod_sample(nodule_progress_detectorC)
+test <- hypothesis_test_by_ClinvNod_sample(nodule_progress_detector)
 ```
 
 After you run this function, it provides the following key results to help you 
