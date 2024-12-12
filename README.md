@@ -57,7 +57,7 @@ If you want to use the example data files located in the `inst/extdata` folder t
 - **Highly Recommended**: Directly download the following two data files from the [NPDS4Clib](https://github.com/JingyuGui/NPDS4Clib) under the `inst/extdata` folder:
   - `0002358111-20180516.nii.gz`
   - `0002358111-20220707.nii.gz`
-Due to the possibility of `.nii.gz` data files becoming corrupted during the `devtools` download and installation process, we highly suggest you to manually download and replace the example data files if you need to use them.
+  - Due to the possibility of `.nii.gz` data files becoming corrupted during the `devtools` download and installation process, we highly suggest you to manually download and replace the example data files if you need to use them.
 
 - After downloading, copy and replace these files into the `inst/extdata` folder in your package installation directory. You can find the directory path by running the following code in R:
   ```R
