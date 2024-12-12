@@ -50,7 +50,7 @@ library(NPDS4Clib)
 
 ## Step 2 : Replace the nii CT data paths, nodule coordinates, and nodule diameter with your own.
 
-### <span style="color:darkred;">Important Note on Example Data Usage (Can be ignored if you are not going to use the sample data)</span>
+### <span style="color:darkred;">Important Note on Example Data Usage (Can be ignored if you are not going to use the exsample data)</span>
 
 If you want to use the example data files located in the `inst/extdata` folder to test the `initialization` function or the `registration_by_elastix` function's `run example`, please follow the instructions below:
 
