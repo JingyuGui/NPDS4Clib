@@ -1,6 +1,6 @@
 # Just Two CT Scans: Detecting Nodule Progression
 
-**_`NPDS4Clib`_** is an R package designed to calculate NPDS statistics and assess. This repository contains the code for [**A Novel Statistic Guided by Clinical Experience for Assessing the Progression of Lung Nodules**](url). 
+**_`NPDS4Clib`_** is a R package designed to calculate NPDS statistics and assess. This repository contains the code for [**A Novel Statistic Guided by Clinical Experience for Assessing the Progression of Lung Nodules**](url). 
 the progression of lung nodules using baseline and follow-up CT images. It offers 
 a simple and efficient approach for lung nodule analysis, inspired by clinical practices. 
 This package is an Rcpp-based version of the Python version **_`NPDS4Clib`_**, originally developed by Hang Yu.
